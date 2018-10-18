@@ -1,7 +1,7 @@
 version: '3.5'
 services:
   myapp:
-    image: theerawut/node-express
+    image: jukkrapatm/resume
     ports:
       - "3000:3000"
     command: "npm start"
