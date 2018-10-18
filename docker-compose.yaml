@@ -3,6 +3,5 @@ services:
   myapp:
     image: jukkrapatm/resume
     ports:
-      - "3000:3000"
-    command: "npm start"
-
+      - "8007:3000"
+    command: "node index.js"
